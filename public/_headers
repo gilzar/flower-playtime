@@ -1,0 +1,12 @@
+# Cloudflare Pages response headers.
+
+# Always check for a fresh service worker so updates reach the home-screen app.
+/service-worker.js
+  Cache-Control: no-cache
+
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer

@@ -1,0 +1,16 @@
+{
+  "name": "Flower's Playtime",
+  "short_name": "Playtime",
+  "description": "Pop-star games for Flower: Disco Spin, Piano Pop and Wiggle Worm.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#5A23B5",
+  "theme_color": "#5A23B5",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
